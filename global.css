@@ -8,6 +8,7 @@
 }
 
 body{
+   font-size:14px;
    background-color: var(--Cream);
    display:flex;
    height:100vh;
