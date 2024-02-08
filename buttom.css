@@ -1,0 +1,7 @@
+.buttom{
+   background-color:var(--Dark-cyan);
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   border-radius: 10px;
+}
