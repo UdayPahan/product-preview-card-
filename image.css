@@ -4,3 +4,17 @@
    object-fit: cover;
    border-radius:10px 10px 0 0; 
 }
+
+@media (min-width:600px){
+   .image{
+      width:50%;
+      height:100%;
+      background-image: url('image-product-desktop.jpg');
+      background-size: cover;
+      border-radius:10px 0 0 10px;
+   }
+   
+   .image img{
+      display:none;
+   }
+}

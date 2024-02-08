@@ -9,3 +9,8 @@
     font-size:3rem;
 }
 
+@media (min-width:600px){
+   .price{
+      gap:1rem;
+   }
+}

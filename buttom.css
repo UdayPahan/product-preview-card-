@@ -9,3 +9,10 @@
    font-size:1.3rem;
    gap:0.5rem;
 }
+
+
+@media (min-width:600px){
+   .buttom{
+      gap:1rem;
+   }
+}

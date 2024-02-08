@@ -4,3 +4,9 @@
 text-transform: uppercase;
 font-size:1.3rem;
 }
+
+@media (min-width:600px){
+   .product{
+      letter-spacing: 0.5rem;
+   }
+}
