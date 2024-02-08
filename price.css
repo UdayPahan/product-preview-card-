@@ -1,4 +1,11 @@
+.price{
+   display:flex;
+   align-items:center;
+}
+
 .price p:first-child{
     font-family: 'Fraunces', serif; 
     color: var(--Dark-cyan);
+    font-size:3rem;
 }
+
