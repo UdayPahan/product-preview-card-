@@ -1,21 +1,18 @@
 .text{
    margin:1.5rem;
-   height:56%;
 }
 
 .text > *{
    margin:1rem 0;
 }
 
-@media (min-width:600px){
+@media (min-width:1440px){
    .text{
-      margin:0;
-      padding:1rem;
       width:50%;
-      height:100%;
+      padding:2rem;
    }
-   
-   .text > * {
-      margin:2.2rem 0;
+
+   .text > *{
+      margin:2rem 0;
    }
 }

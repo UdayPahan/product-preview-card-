@@ -1,18 +1,13 @@
 .main-container{
-   width:90vw;
-   height:90vh;
+   margin:2rem;
    background-color: var(--White);
    border-radius: 10px;
 }
 
-@media (min-width:600px){
+@media (min-width:1440px){
    .main-container{
       display:flex;
-      width:70vw;
-      height:30vh;
+      width:60%;
    }
    
-   .main-container > *{
-      flex:1;
-   }
 }

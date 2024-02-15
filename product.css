@@ -1,12 +1,13 @@
 .product{
     color:var(--Dark-grayish-blue);
-    letter-spacing:0.3rem;
-text-transform: uppercase;
-font-size:1.3rem;
+    letter-spacing:0.4rem;
+   text-transform: uppercase;
+   font-size:0.9rem;
 }
 
-@media (min-width:600px){
+@media (min-width:1440px){
    .product{
-      letter-spacing: 0.5rem;
+      font-size: 1.3rem;
+      font-weight: 400;
    }
 }

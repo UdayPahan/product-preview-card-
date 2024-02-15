@@ -1,22 +1,26 @@
-.buttom{
+.button{
    background-color:var(--Dark-cyan);
    display:flex;
    justify-content: center;
    align-items:center;
    border-radius: 10px;
-   padding:1.5rem 1rem;
+   padding:1rem;
    color:var(--White);
-   font-size:1.3rem;
+   font-size:1rem;
    gap:0.5rem;
 }
 
-.buttom:hover{
-   background-color:var(--Dark-grayish-blue);
+.button:hover{
+   background-color:var(--Very-dark-cyan);
    cursor:pointer;
 }
 
-@media (min-width:600px){
-   .buttom{
-      gap:1rem;
-   }
+@media (min-width:1440px){
+.botton svg{
+   font-size: 3rem;
+ }
+
+ .botton p{
+   font-size:2rem;
+ }
 }

@@ -1,7 +1,9 @@
 .price{
    display:flex;
    align-items:center;
+   color:var(--Dark-grayish-blue);
 }
+
 
 .price p:first-child{
     font-family: 'Fraunces', serif; 
@@ -9,8 +11,12 @@
     font-size:3rem;
 }
 
-@media (min-width:600px){
-   .price{
-      gap:1rem;
+@media(min-width:1440px){
+   .price p:first-child{
+      font-size: 5rem;
+   }
+   .price p:last-child{
+      font-size:1.5rem;
+      margin:3rem 2rem;
    }
 }
